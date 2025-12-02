@@ -57,3 +57,14 @@ Add Swagger for Backend
 ```
 # for the backend application add swagger documentation
 ```
+
+High Level Documentation
+
+```
+# generate below documentation in docs folder as markdown files and use mermaid diagram extension for generating diagrams for the documentation:
+High Level Documentation
+1. architecture overview
+2. technology stack
+3. module description
+4. data flow diagrams
+```
