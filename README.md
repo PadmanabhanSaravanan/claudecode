@@ -37,8 +37,12 @@ install all dependencies and run both server and client
 
 Testing your Rest API
 
-`use # for memory`
+```
+generate postman collection from openapi spec for backend api testing
+```
+
+Add Swagger for Backend
 
 ```
-# generate postman collection from openapi spec for backend api testing
+for the backend application add swagger documentation
 ```
