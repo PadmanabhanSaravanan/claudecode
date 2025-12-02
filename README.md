@@ -37,8 +37,10 @@ install all dependencies and run both server and client
 
 Login, Logout & Role-Based JWT Auth
 
+`use # before to use memory`
+
 ```
-Extend the existing monorepo project (server + client) by adding:
+# Extend the existing monorepo project (server + client) by adding:
 1. JWT-based authentication (login/logout)
 2. In-memory users with fields: id, name, email, password, role("admin"|"user")
 3. bcrypt password hashing
