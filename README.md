@@ -1,5 +1,7 @@
 # claudecode
 
+Scaffloding Project
+
 ```
 1. Backend: 
     - Built with Node.js and ExpressJS 
@@ -20,3 +22,16 @@
 
 4. Add commnets to expalin each section of the code for better understanding
 ```
+
+Create a Claude.md 
+
+```
+/init
+```
+
+Install and Run Server and Node
+
+```
+install all dependencies and run both server and client
+```
+
