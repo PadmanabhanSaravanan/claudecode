@@ -35,3 +35,34 @@ Install and Run Server and Node
 install all dependencies and run both server and client
 ```
 
+Login, Logout & Role-Based JWT Auth
+
+```
+Extend the existing monorepo project (server + client) by adding:
+1. JWT-based authentication (login/logout)
+2. In-memory users with fields: id, name, email, password, role("admin"|"user")
+3. bcrypt password hashing
+4. Auth endpoints:
+      POST /auth/login
+      POST /auth/logout
+5. Middlewares:
+      authMiddleware → validate JWT
+      roleMiddleware → restrict routes by role
+6. Protect user CRUD routes:
+      GET /users → admin + user
+      POST/PUT/DELETE → admin only
+
+Frontend:
+1. Add Login page using React + Axios
+2. Store token in localStorage
+3. Add Logout button
+4. Add PrivateRoute + RoleRoute components
+5. Show/hide UI based on role
+6. Axios interceptor to send Authorization header
+
+Deliver:
+- Updated server and client code
+- New files with comments
+- Updated README with usage instructions
+```
+
