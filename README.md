@@ -40,5 +40,5 @@ Testing your Rest API
 `use # for memory`
 
 ```
-# swagger ui for backend api testing
+# generate postman collection from openapi spec for backend api testing
 ```
